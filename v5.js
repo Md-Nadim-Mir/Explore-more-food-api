@@ -43,7 +43,7 @@ display = (meals) => {
 }
 
 
-
+//search button event handler add
 document.getElementById('search_btn').addEventListener('click', () => {
 
 
@@ -57,10 +57,10 @@ document.getElementById('search_btn').addEventListener('click', () => {
 })
 
 
-loadData('fish');
+loadData('');
 
 
-
+// input field value set
 let show_input_field = document.getElementsByClassName('show_input_field');
 
 for (let show of show_input_field) {
